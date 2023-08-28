@@ -3,7 +3,7 @@ const path = require('path');
 const store = require('./store/datastore');
 const initialStoreData = require('./store/data');
 const Musician = require('./models/musician');
-const musicianRoutes = require('./routes/musician');
+const musicianRoutes = require('./routes/musiciasn');
 
 const app = express();
 const port = process.env.PORT || 3001;
